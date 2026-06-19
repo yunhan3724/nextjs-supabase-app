@@ -24,7 +24,9 @@
     },
     "shrimp-task-manager": {
       "command": "node",
-      "args": ["/Users/koyunhan/Desktop/Unan/IT/claude/invoice-web/mcp-shrimp-task-manager/dist/index.js"],
+      "args": [
+        "/Users/koyunhan/Desktop/Unan/IT/claude/invoice-web/mcp-shrimp-task-manager/dist/index.js"
+      ],
       "env": {
         "DATA_DIR": "/Users/koyunhan/Desktop/Unan/IT/claude/claude-code-supabase/nextjs-supabase-app/shrimp_data",
         "TEMPLATES_USE": "en",

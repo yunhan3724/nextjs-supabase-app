@@ -40,3 +40,9 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# editor
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea

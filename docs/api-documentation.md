@@ -240,11 +240,7 @@ Notion 데이터베이스에서 견적서 목록 조회
 ```typescript
 import { getInvoicesFromNotion } from '@/lib/services/invoice.service'
 
-const { invoices, nextCursor, hasMore } = await getInvoicesFromNotion(
-  10,
-  undefined,
-  'issue_date'
-)
+const { invoices, nextCursor, hasMore } = await getInvoicesFromNotion(10, undefined, 'issue_date')
 ```
 
 ---
